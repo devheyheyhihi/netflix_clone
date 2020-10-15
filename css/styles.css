@@ -1,4 +1,6 @@
-@import "header.css";
+@import "status-bar.css";
+@import "reset.css";
+@import "index.css";
 
 * {
   background-color: black;
@@ -9,34 +11,6 @@ body {
   background-color: #0b090c;
   font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
     Roboto, Oxygen, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
-}
-
-a {
-  text-decoration: none;
-}
-
-#player {
-  background-color: gray;
-  width: 1656px;
-  height: 753px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-#waching__contents {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-
-#recommand__contents {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-
-.title {
-  margin: 20px 0px 10px 0px;
 }
 
 .contents {
